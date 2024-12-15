@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./img/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,400;0,500;0,600;1,600&family=Montserrat:ital,wght@0,300;1,300&family=Phetsarath:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="main">
+    <div class="sidebar">
+        <div class="nav">
+            <div class="nav-option" style="opacity: 1;">
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+            </div>
+            <div class="nav-option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+               <a href="#">search</a>
+           </div>
+        </div>
+        <div class="library">
+            <div class="option">
+                <div class="lib-option nav-option">
+                    <img src="./img/library_icon.png" >
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="lib-box">
+                    <p class="boxp1">Create your first playlist</p>
+                    <p class="boxp2">Its's easy, we'll help you</p>
+                    <button class="badge">Create playist</button>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="lib-box">
+                    <p class="boxp1">Let's find some podcast to follow</p>
+                    <p class="boxp2"> We'll help you upadated new eposides</p>
+                    <button class="badge">Browse podcasts</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="sticky-nav">
+            <div class="nav-icon">
+                <img src="./img/backward_icon.png" alt="" class="fb">
+                <img src="./img/forward_icon.png" alt="" class="hide fb" style="margin-left: .5rem;">
+            </div>
+           <div class="sticky-option">
+            <button class="badge hide">  Explore Premium</button>
+            <button class="badge nav-item dark-badge"> <i class="fa-regular fa-circle-down"  style="margin-right: 5px;"></i>Install App</button>
+            <i class="fa-regular fa-user"></i>
+           </div>
+        </div>
+
+        <h2>Recently Played</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./img/card1img.jpeg" alt="" class="card-img">
+                <p class="title">Top 50 - Global</p>
+                <p class="info">Your daily updates of the mostplayed track...</p>
+            </div>
+            <div class="card">
+                <img src="./img/h1.jpeg" alt="" class="card-img">
+                <p class="title">MILLIONAIRE SONG</p>
+                <p class="info">YoYoHoneySingh | GLORY | BHUSHAN KUMAR...</p>
+            </div>
+            <div class="card">
+                <img src="./img/h2.jpeg" alt="" class="card-img">
+                <p class="title">Aaj ki Raat ( "From Stree 2")</p>
+                <p class="info">Aaj Ki Raat | Stree 2 | Tamannaah Bhatia | Sachin-Jigar...</p>
+            </div>
+            <div class="card">
+                <img src="./img/r1.jpeg" alt="" class="card-img">
+                <p class="title">Jindagi (जिंदगी)</p>
+                <p class="info">Pawan Singh - Zindagi (Official Video) - Renuka Panwar...</p>
+            </div>
+         </div>
+
+            <h2>Suggested artists</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./img/s2.jpeg" alt="" class="card-img">
+                    <p class="title">Arijit Singh </p>
+                    <p class="info"> India Tour Hits - Album by Arijit Singh | Spotify
+                        ...</p>
+                </div>
+                <div class="card">
+                    <img src="./img/s1.jpg" alt="" class="card-img">
+                    <p class="title">Pawan Singh</p>
+                    <p class="info">Hai Superstar Mera Pawan spotify...</p>
+                </div>
+                <div class="card">
+                    <img src="./img/s3.jpeg" alt="" class="card-img">
+                    <p class="title">Badshah</p>
+                    <p class="info">This is Badshah - playlist by Spotify ...</p>
+                </div>
+                <div class="card">
+                    <img src="./img/s4.jpeg" alt="" class="card-img">
+                    <p class="title">Shreya Ghoshal</p>
+                    <p class="info">
+                        Best Of Shreya Ghoshal - Compilation by Shreya Ghoshal | Spotify...</p>
+                </div>
+                <div class="card">
+                    <img src="./img/s5.jpeg" alt="" class="card-img">
+                    <p class="title">Kumar sanu</p>
+                    <p class="info">Bollywood Music - Kumar Sanu At His Best, ...</p>
+                </div>
+                <div class="card">
+                    <img src="./img/s6.jpeg" alt="" class="card-img">
+                    <p class="title">Udit Naryan</p>
+                    <p class="info">Best of Udit Narayan - Single by Udit Narayan | Spotify...</p>
+                </div>
+                <div class="card">
+                    <img src="./img/s7.jpeg" alt="" class="card-img">
+                    <p class="title">Alka Yaganik</p>
+                    <p class="info">Best Of Alka Yagnik - Compilation by Alka Yagnik...</p>
+                </div>
+                <div class="card">
+                    <img src="./img/s8.jpeg" alt="" class="card-img">
+                    <p class="title">Jubin Nautilya</p>
+                    <p class="info">Best Of Jubin Nautiyal - Compilation by Jubin Nautiyal | Spotify...</p>
+                </div>
+                <div class="card">
+                    <img src="./img/s9.jpeg" alt="" class="card-img">
+                    <p class="title">Neha Kakkar</p>
+                    <p class="info">This is Neha Kakkar - playlist by Spotify | Spotify...</p>
+                </div>
+        </div>
+        <h2>Bhojpuri Songs</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./img/b5.jpg" alt="" class="card-img">
+                <p class="title">Pahin Ke Chali Bikini</p>
+                <p class="info">Pahin Ke Chali Bikini - Single by Purav Jha | Spotifyk...</p>
+            </div>
+            <div class="card">
+                <img src="./img/b2.jpeg" alt="" class="card-img">
+                <p class="title">Raja Ji</p>
+                <p class="info">Raja Ji - song by Pawan Singh, Shivani Singh | Spotify...</p>
+            </div>
+            <div class="card">
+                <img src="./img/b1.jpeg" alt="" class="card-img">
+                <p class="title">Aag Lago Na Ae Raja </p>
+                <p class="info">Aag Lago Na Ae Raja - song by Khesari Lal Yadav | Spotify...</p>
+            </div>
+            <div class="card">
+                <img src="./img/b3.jpeg" alt="" class="card-img">
+                <p class="title">Heroine</p>
+                <p class="info">Heroine - song by Neelkamal Singh | Spotify
+                    ...</p>
+            </div>
+            <div class="card">
+                <img src="./img/b4.jpeg" alt="" class="card-img">
+                <p class="title">Pistol song</p>
+                <p class="info">Arvind Akela Kallu - pistol - Compilation by Various Artists | Spotify...</p>
+            </div>
+            <div class="card">
+                <img src="./img/b6.jpeg" alt="" class="card-img">
+                <p class="title">Bhojpuri Hit Song</p>
+                <p class="info">Bhojpuri Hit Song (Bhojpuri Song) - Compilation by Various Artists | Spotify...</p>
+            </div>
+            <div class="card">
+                <img src="./img/b7.jpeg" alt="" class="card-img">
+                <p class="title">Laal Ghaghra</p>
+                <p class="info">Laal Ghaghra - song and lyrics by Shilpi Raj, Pawan Singh | Spotify...</p>
+            </div>
+            <div class="card">
+                <img src="./img/b8.jpeg" alt="" class="card-img">
+                <p class="title">Maroon color sadiya</p>
+                <p class="info">Nirahua Ke Chakkar Mein - song and lyrics by Om Jha | Spotify...</p>
+            </div>
+    </div>
+    <h2>Trending hindi songs</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./img/h1.jpeg" alt="" class="card-img">
+                <p class="title">MILLIONAIRE SONG (Full Song)</p>
+                <p class="info">YoYoHoneySingh | GLORY | BHUSHAN KUMAR...</p>
+            </div>
+            <div class="card">
+                <img src="./img/h2.jpeg" alt="" class="card-img">
+                <p class="title">Aaj ki Raat ( "From Stree 2")</p>
+                <p class="info">Aaj Ki Raat | Stree 2 | Tamannaah Bhatia | Sachin-Jigar...</p>
+            </div>
+            <div class="card">
+                <img src="./img/h3.jpeg" alt="" class="card-img">
+                <p class="title">Tauba Tauba</p>
+                <p class="info">Tauba Tauba | Bad Newz | Vicky Kaushal | Triptii Dimri | Karan...</p>
+            </div>
+            <div class="card">
+                <img src="./img/h6.jpg" alt="" class="card-img">
+                <p class="title">Raataan Lambiyan</p>
+                <p class="info">Song by Asees Kaur and Jubin Nautiyal
+                    ...</p>
+            </div>
+            <div class="card">
+                <img src="./img/h5.jpg" alt="" class="card-img">
+                <p class="title">Rooh song</p>
+                <p class="info"> Hindi Latest Song by Tej Gill,Honey singh...</p>
+            </div>
+            <div class="card">
+                <img src="./img/h4.jpeg" alt="" class="card-img">
+                <p class="title">Kissik song</p>
+                <p class="info">
+                    Kissik song: Pushpa 2 the rule new song| kisskh pushpa 2 ...</p>
+            </div>
+            <div class="card">
+                <img src="./img/h7.jpg" alt="" class="card-img">
+                <p class="title">SAJNA VE SAJNA</p>
+                <p class="info"> Shehnaaz Gill | Sunidhi Chauhan,Divya Kumar | DJ Lijo | Sandesh S | Bhushan K...</p>
+            </div>
+            <div class="card">
+                <img src="./img/h8.jpeg" alt="" class="card-img">
+                <p class="title">DILBAR Lyrical</p>
+                <p class="info">
+                    DILBAR Lyrical | Satyameva Jayate |John Abraham, Nora ...</p>
+            </div>
+            <div class="card">
+                <img src="./img/h9.jpeg" alt="" class="card-img">
+                <p class="title">Lut Gaye (Full Song)</p>
+                <p class="info">Lut Gaye (Full Song) Emraan Hashmi, Yukti | Jubin N, Tanishk...</p>
+            </div>
+         </div>
+
+        <h2 style="margin-top: 1rem;">Trending now near you </style></h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./img/card2img.jpeg" alt="" class="card-img">
+                <p class="title">Mahiye Jinna Sohna</p>
+                <p class="info">Mahiye Jinna Sohna - Single by Darshan Raval | Spotify
+                    ...</p>
+            </div>
+            <div class="card">
+                <img src="./img/card3img.jpeg" alt="" class="card-img">
+                <p class="title">Rahat Fateh Ali Khan </p>
+                <p class="info">Aakhi Ja Malanga Ali Ali - song by Rahat Fateh Ali Khan | Spotify...</p>
+            </div>
+            <div class="card">
+                <img src="./img/card4img.jpeg" alt="" class="card-img">
+                <p class="title">Naa Ready (From "Leo") </p>
+                <p class="info">Naa Ready (From "Leo") - song and lyrics by Anirudh Ravichander, Vijay, Asal Kolaar | Spotify...</p>
+            </div>
+            <div class="card">
+                <img src="./img/c1.jpeg" alt="" class="card-img">
+                <p class="title">Guru Randhawa</p>
+                <p class="info">Hits Of Guru Randhawa - Compilation by Guru Randhawa | Spotify...</p>
+            </div>
+            <div class="card">
+                <img src="./img/c2.jpeg" alt="" class="card-img">
+                <p class="title">Hindi songs</p>
+                <p class="info">Latest Hindi Songs - playlist by Musico Playlists ...</p>
+            </div>
+            <div class="card">
+                <img src="./img/c3.jpeg" alt="" class="card-img">
+                <p class="title">Jubin Nautiyal</p>
+                <p class="info">Best Of Jubin Nautiyal - Compilation by Jubin Nautiyal | Spotify...</p>
+            </div>
+    </div>
+    <h2>Featured Charts</h2>
+    <div class="cards-container">
+        <div class="card">
+            <img src="./img/card5img.jpeg" alt="" class="card-img">
+            <p class="title">Top 50 - Global</p>
+            <p class="info">Your daily updates of the mostplayed track...</p>
+        </div>
+        <div class="card">
+            <img src="./img/card6img.jpeg" alt="" class="card-img">
+            <p class="title">Top 50 - India</p>
+            <p class="info">Your daily updates of the mostplayed track...</p>
+        </div>
+        <div class="card">
+            <img src="./img/card1img.jpeg" alt="" class="card-img">
+            <p class="title">Top 50 - Global</p>
+            <p class="info">Your daily updates of the mostplayed track...</p>
+        </div>
+        <div class="card">
+            <img src="./img/v2.jpeg" alt="" class="card-img">
+            <p class="title">Top 50 - India</p>
+            <p class="info">Your daily updates of the mostplayed track...</p>
+        </div>
+        <div class="card">
+            <img src="./img/v1.jpeg" alt="" class="card-img">
+            <p class="title">Top 50 - Global</p>
+            <p class="info">Your daily updates of the mostplayed track...</p>
+        </div>
+</div>
+<div class="footerup">
+       <div class="company">Company
+        <ul>
+            <li>About</li>
+            <li>Jobs</li>
+            <li>For the Record</li>
+        </ul>
+       </div>
+       <div class="communaties">Communities
+        <ul>
+            <li>For Artists</li>
+            <li>Developers</li>
+            <li>Advertising</li>
+            <li>Investors</li>
+            <li>Vendors</li>
+        </ul>
+       </div>
+       <div class="useful-link">Useful links
+        <ul>
+            <li>Supprt</li>
+        <li>Free Mobile App</li>
+    </ul>
+       </div>
+       <div class="spotify-plan">Spotify Plans
+        <ul>
+            <li>Premium Individual</li>
+            <li>Premium Duo</li>
+            <li>Premium Family</li>
+            <li>Premium Student</li>
+            <li>Spotify Free</li>
+        </ul>
+       </div>
+    <div class="media">
+        <i class="fa-brands fa-instagram" style="margin-right: .5rem;"></i>
+        <i class="fa-brands fa-x-twitter" style="margin-right: .5rem;"></i>
+        <i class="fa-brands fa-square-facebook" style="margin-right: .5rem;"></i>    </div>
+</div>
+
+
+<div class="footer">
+    <div class="line"></div>
+    </div>
+   </div>
+   <div class="music-player"> 
+    <div class="album">
+         <img src="./img/h2.jpeg" alt="">
+         <ul>
+            <li class="l1">Aaj Ki Raat("From Stree 2")</li>
+            <li class="l2"> Madhubanti Bagch,Sachin–Jigar,Divya kumar </li>
+         </ul>
+       
+    </div>
+    <div class="player">
+        <div class="pause">
+            <img src="./img/player_icon1 (1).png" class="picon">
+            <img src="./img/player_icon2.png" class="picon">
+            <img src="./img/player_icon3.png" class="picon" style="opacity: 1; height: 1.8rem;" >
+            <img src="./img/player_icon4.png" class="picon">
+            <img src="./img/player_icon5.png" class="picon">
+        </div>
+        <div class="play-bar">
+            <span class="time">2:00</span>
+            <input type="range" min="0" max="100" class="progress-bar" step="1" >
+            <span class="time">3:34</span>
+        </div>
+    </div>
+    <div class="controls">
+        <div class="control-iconr " >
+            <i class="fa-solid fa-play" style="margin-right: .5rem;"></i>
+            <i class="fa-solid fa-microphone" style="margin-right: .5rem;"></i>
+            <i class="fa-solid fa-bars" style="margin-right: .5rem;"></i>
+            <i class="fa-solid fa-volume-low"></i>
+        </div>
+        <div class="line-bar"> 
+        </div>
+        <div class="iconl">
+            <i class="fa-regular fa-square" style="margin-right: .5rem;"></i>
+        </div>
+        <div class="iconll"><i class="fa-solid fa-up-right-and-down-left-from-center" style="margin-left: .5rem;"></i></div>
+    </div>
+</div>
+</body>
+</html>
