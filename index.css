@@ -320,3 +320,49 @@ font-size:1.2 ;
     height: 72px;
     
 }
+@media (max-width: 768px) {
+
+    .sidebar {
+        display: none;
+    }
+
+    .main {
+        padding: 0;
+    }
+
+    .main-content {
+        padding: 1rem;
+    }
+
+    .cards-container {
+        justify-content: center;
+    }
+
+    .card {
+        width: 45%;
+        margin: 0.5rem;
+    }
+
+    .album {
+        display: none;
+    }
+
+    .controls {
+        display: none;
+    }
+
+    .player {
+        width: 100%;
+    }
+
+    .progress-bar {
+        width: 70%;
+    }
+}
+
+/* EXTRA SMALL */
+@media (max-width: 480px) {
+    .card {
+        width: 90%;
+    }
+}
